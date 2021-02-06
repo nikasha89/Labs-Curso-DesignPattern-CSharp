@@ -1,7 +1,7 @@
-﻿using Problem.BusinessClasses;
+﻿using MySolution.BusinessClasses;
 using System;
 
-namespace Problem
+namespace MySolution
 {
     public class Program
     {

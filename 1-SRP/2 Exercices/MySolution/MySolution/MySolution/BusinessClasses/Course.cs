@@ -1,4 +1,4 @@
-﻿namespace Problem.BusinessClasses
+﻿namespace MySolution.BusinessClasses
 {
     public class Course
     {
