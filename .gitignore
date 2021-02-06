@@ -1,0 +1,12 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/1-SRP/2 Exercices/MySolution/MySolution/.vs
+/1-SRP/2 Exercices/MySolution/MySolution/MySolution/bin/Debug
+/1-SRP/2 Exercices/MySolution/MySolution/MySolution/obj
+/1-SRP/2 Exercices/MySolution/MySolution/MySolutionTest/bin/Debug
+/1-SRP/2 Exercices/MySolution/MySolution/MySolutionTest/obj
+/1-SRP/2 Exercices/Problem/Problem/.vs/Problem/v16
+/1-SRP/2 Exercices/Solution/Solution/Solution/obj
