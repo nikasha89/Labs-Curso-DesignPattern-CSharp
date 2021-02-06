@@ -1,7 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MySolution.BusinessClasses;
 using System.Collections.Generic;
-using System.IO;
 
 namespace MySolutionTest
 {
@@ -43,16 +42,6 @@ namespace MySolutionTest
             report.RemoveCourseAt(0);
 
             Assert.AreEqual(1, report.Courses.Count);
-        }
-
-        [TestMethod]
-        public void TestSaveToFile_TwoCourses_2FilesSaved()
-        {
-            report = new Report(courses);
-
-            report.SaveToFile("Report","LaPaca");
-
-            Assert.IsTrue(File.Exists(Path.Combine("Report", "LaPaca")));
         }
     }
 }
