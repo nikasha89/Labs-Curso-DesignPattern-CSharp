@@ -15,6 +15,5 @@ namespace MySolution.BusinessClasses
         {
             _messages.ForEach(message => message.Send());
         }
-
     }
 }
