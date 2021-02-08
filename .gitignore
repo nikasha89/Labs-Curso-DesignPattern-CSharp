@@ -79,3 +79,21 @@
 /5-DIP/Exercises/MySolution/MySolution/obj/Debug
 /5-DIP/Exercises/MySolution/MySolutionProgram/bin/Debug
 /5-DIP/Exercises/MySolution/MySolutionProgram/obj/Debug
+/5-DIP/Exercises/MySolution/MySolution/obj/Release
+/5-DIP/Exercises/MySolution/MySolutionProgram/obj/Release
+/6.1-Builder/Builder/.vs/Builder
+/6.1-Builder/Builder/Builder/obj
+/6.1-Builder/Builder/BuilderLibrary/obj
+/6.2-Fluent Builder/.vs/Builder
+/6.2-Fluent Builder/Example/BuilderLibrary/obj
+/6.2-Fluent Builder/Example/FluentBuilder/obj
+/6.2-Fluent Builder/Exercise/.vs/Exercise
+/6.2-Fluent Builder/Exercise/BuilderLibrary/obj
+/6.2-Fluent Builder/Exercise/FluentBuilder/obj
+/6.2-Fluent Builder/MySolution/.vs/MySolution/v16
+/6.2-Fluent Builder/MySolution/BuilderLibrary/bin/Debug/netstandard2.0
+/6.2-Fluent Builder/MySolution/BuilderLibrary/obj
+/6.2-Fluent Builder/MySolution/FluentBuilder/bin/Debug
+/6.2-Fluent Builder/MySolution/FluentBuilder/obj
+/6.3-Fluent Builder (Unit Testing)/Builder/packages
+/6.3-Fluent Builder (Unit Testing)/Builder/TestBuilder/obj
