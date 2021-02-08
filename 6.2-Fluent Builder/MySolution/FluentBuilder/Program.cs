@@ -8,10 +8,12 @@ namespace FluentBuilder
         static void Main(string[] args)
         {
             var builder = new CarBuilder()
-                .WithModel("Mercedes")
-                .WithName("Benz");
+                .CreateNew()
+                .AddModel("Mercedes")
+                .AddName("Benz")
+                .Build();
 
-            Console.WriteLine(builder.Car.Name + " " + builder.Car.Model);
+            Console.WriteLine(builder.Name + " " + builder.Model);
             Console.ReadLine();
         }
     }

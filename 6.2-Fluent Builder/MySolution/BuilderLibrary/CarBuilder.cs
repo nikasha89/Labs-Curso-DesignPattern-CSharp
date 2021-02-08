@@ -2,22 +2,33 @@
 {
     public class CarBuilder
     {
-        protected Car _car = new Car();
+        private Car _car;
 
-        public Car Car
+        public CarBuilder()
         {
-            get { return _car; }
+            _car = new Car();
+        }        
+
+        public static CarBuilder CreateNew()
+        {
+            return this;
         }
 
-        public CarBuilder WithModel(string model)
+        public CarBuilder AddModel(string model)
         {
             _car.Model = model;
             return this;
         }
-        public CarBuilder WithName(string name)
+
+        public CarBuilder AddName(string name)
         {
             _car.Name = name;
             return this;
-        }        
+        }  
+        
+        public Car Build()
+        {
+            return _car;
+        }
     }
 }
